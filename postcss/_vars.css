@@ -1,0 +1,17 @@
+@reset-global pc;
+
+/* breakPoint */
+@custom-media --breakPoint (width <= 800px);
+
+:root {
+  --base-font-size: 16px;
+  --color-white: color(#ffffff a(100%));
+  --color-darker: color(#212121 a(100%));
+  --color-lighter: color(#e7e8ea a(100%));
+  --width-large: 800px;
+  --radius: 4px;
+
+  --button-style: { display: inline-block; padding: 16px 24px; background: var(--color-white); border-radius: var(--radius); border: 1px solid var(--color-darker); color: var(--color-darker); text-decoration: unset;
+    &:hover { background: var(--color-darker); color: var(--color-white); opacity: 1;}
+  };
+}

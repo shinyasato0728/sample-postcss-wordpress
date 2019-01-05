@@ -1,0 +1,25 @@
+{
+  "name": "wordpress",
+  "version": "1.0.0",
+  "description": "sample-postcss-wordpress",
+  "main": "index.js",
+  "scripts": {
+    "start": "php -S localhost:8000 & postcss postcss/*.css -d wp-content/themes/sample-postcss/assets/css/ -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.4.4",
+    "postcss-apply": "^0.11.0",
+    "postcss-cli": "^6.1.1",
+    "postcss-color-function": "^4.0.1",
+    "postcss-css-reset": "^1.0.2",
+    "postcss-custom-media": "^7.0.7",
+    "postcss-flexbugs-fixes": "^4.1.0",
+    "postcss-import": "^12.0.1",
+    "postcss-media-minmax": "^4.0.0",
+    "postcss-nesting": "^7.0.0",
+    "postcss-pixels-to-rem": "^0.8.0"
+  }
+}

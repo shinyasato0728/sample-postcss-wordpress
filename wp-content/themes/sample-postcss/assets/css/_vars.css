@@ -1,0 +1,306 @@
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
+ */html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}/**
+ * Remove the margin in all browsers (opinionated).
+ */body {
+  margin: 0;
+}/* HTML5 display definitions
+   ========================================================================== *//**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */article,
+aside,
+details, /* 1 */
+figcaption,
+figure,
+footer,
+header,
+main, /* 2 */
+menu,
+nav,
+section,
+summary { /* 1 */
+  display: block;
+}/**
+ * Add the correct display in IE 9-.
+ */audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}/**
+ * Add the correct display in iOS 4-7.
+ */audio:not([controls]) {
+  display: none;
+  height: 0;
+}/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */progress {
+  vertical-align: baseline;
+}/**
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
+ */template, /* 1 */
+[hidden] {
+  display: none;
+}/* Links
+   ========================================================================== *//**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */a {
+  background-color: transparent; /* 1 */
+  -webkit-text-decoration-skip: objects; /* 2 */
+}/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */a:active,
+a:hover {
+  outline-width: 0;
+}/* Text-level semantics
+   ========================================================================== *//**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */b,
+strong {
+  font-weight: inherit;
+}/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */b,
+strong {
+  font-weight: bolder;
+}/**
+ * Add the correct font style in Android 4.3-.
+ */dfn {
+  font-style: italic;
+}/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}/**
+ * Add the correct background and color in IE 9-.
+ */mark {
+  background-color: #ff0;
+  color: #000;
+}/**
+ * Add the correct font size in all browsers.
+ */small {
+  font-size: 80%;
+}/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}sub {
+  bottom: -0.25em;
+}sup {
+  top: -0.5em;
+}/* Embedded content
+   ========================================================================== *//**
+ * Remove the border on images inside links in IE 10-.
+ */img {
+  border-style: none;
+}/**
+ * Hide the overflow in IE.
+ */svg:not(:root) {
+  overflow: hidden;
+}/* Grouping content
+   ========================================================================== *//**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}/**
+ * Add the correct margin in IE 8.
+ */figure {
+  margin: 1em 2.5rem;
+}/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}/* Forms
+   ========================================================================== *//**
+ * 1. Correct color not being inherited.
+      Known issue: affects color of disabled elements.
+ * 2. Change font properties to `inherit` in all browsers (opinionated).
+ * 3. Remove the margin in Firefox and Safari.
+ */button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+  vertical-align: middle;
+}/**
+ * Restore the font weight unset by the previous rule.
+ */optgroup {
+  font-weight: bold;
+}/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */button,
+input { /* 1 */
+  overflow: visible;
+}/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */button,
+select { /* 1 */
+  text-transform: none;
+}/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */button,
+html [type="button"], /* 1 */
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+}/**
+ * Remove the inner border and padding in Firefox.
+ */button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}/**
+ * Restore the focus styles unset by the previous rule.
+ */button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 0.0625rem dotted ButtonText;
+}/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */fieldset {
+  border: 0.0625rem solid #c0c0c0;
+  margin: 0 0.125rem;
+  padding: 0.35em 0.625em 0.75em;
+}/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}/**
+ * Remove the default vertical scrollbar in IE.
+ */textarea {
+  overflow: auto;
+  resize: none;
+  vertical-align: top;
+}/* webkit focus outline */input,
+select,
+textarea {
+  outline: 0;
+}/* Re-set default cursor for disabled elements. */[disabled] {
+  cursor: default;
+}/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -0.125rem; /* 2 */
+}/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
+ */[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}/**
+ * Correct the text style of placeholders in Chrome, Edge, ff, and Safari.
+ */input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}input::-ms-clear,
+input::-ms-reveal {
+  display: none;
+}/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}/* table
+   ========================================================================== *//* Remove table cell spacing and padding */table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}td,
+th {
+  padding: 0;
+}h1, h2, h3, h4, h5, h6, p, figure, form, blockquote {
+  margin: 0;
+}ul, ol, li, dl, dd {
+  margin: 0;
+  padding: 0;
+}ul, ol {
+  list-style: none outside none;
+}h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+/* breakPoint */
+
+:root {
+  --base-font-size: 1rem;
+  --color-white: rgb(255, 255, 255);
+  --color-darker: rgb(33, 33, 33);
+  --color-lighter: rgb(231, 232, 234);
+  --width-large: 50rem;
+  --radius: 0.25rem;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIjxubyBzb3VyY2U+IiwiLi4vLi4vLi4vLi4vLi4vcG9zdGNzcy9fdmFycy5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7OztHQUFBO0VBQUEsd0JBQUEsQ0FBQSxPQUFBO0VBQUEsMkJBQUEsQ0FBQSxPQUFBO0VBQUEsK0JBQUEsQ0FBQSxPQUFBO0NBQUE7O0dBQUE7RUFBQSxVQUFBO0NBQUE7Z0ZBQUE7Ozs7R0FBQTs7Ozs7Ozs7Ozs7VUFBQSxPQUFBO0VBQUEsZUFBQTtDQUFBOztHQUFBOzs7O0VBQUEsc0JBQUE7Q0FBQTs7R0FBQTtFQUFBLGNBQUE7RUFBQSxVQUFBO0NBQUE7O0dBQUE7RUFBQSx5QkFBQTtDQUFBOzs7R0FBQTs7RUFBQSxjQUFBO0NBQUE7Z0ZBQUE7OztHQUFBO0VBQUEsOEJBQUEsQ0FBQSxPQUFBO0VBQUEsc0NBQUEsQ0FBQSxPQUFBO0NBQUE7OztHQUFBOztFQUFBLGlCQUFBO0NBQUE7Z0ZBQUE7OztHQUFBO0VBQUEsb0JBQUEsQ0FBQSxPQUFBO0VBQUEsMkJBQUEsQ0FBQSxPQUFBO0VBQUEsa0NBQUEsQ0FBQSxPQUFBO0NBQUE7O0dBQUE7O0VBQUEscUJBQUE7Q0FBQTs7R0FBQTs7RUFBQSxvQkFBQTtDQUFBOztHQUFBO0VBQUEsbUJBQUE7Q0FBQTs7O0dBQUE7RUFBQSxlQUFBO0VBQUEsaUJBQUE7Q0FBQTs7R0FBQTtFQUFBLHVCQUFBO0VBQUEsWUFBQTtDQUFBOztHQUFBO0VBQUEsZUFBQTtDQUFBOzs7R0FBQTs7RUFBQSxlQUFBO0VBQUEsZUFBQTtFQUFBLG1CQUFBO0VBQUEseUJBQUE7Q0FBQTtFQUFBLGdCQUFBO0NBQUE7RUFBQSxZQUFBO0NBQUE7Z0ZBQUE7O0dBQUE7RUFBQSxtQkFBQTtDQUFBOztHQUFBO0VBQUEsaUJBQUE7Q0FBQTtnRkFBQTs7O0dBQUE7Ozs7RUFBQSxrQ0FBQSxDQUFBLE9BQUE7RUFBQSxlQUFBLENBQUEsT0FBQTtDQUFBOztHQUFBO0VBQUEsbUJBQUE7Q0FBQTs7O0dBQUE7RUFBQSx3QkFBQSxDQUFBLE9BQUE7RUFBQSxVQUFBLENBQUEsT0FBQTtFQUFBLGtCQUFBLENBQUEsT0FBQTtDQUFBO2dGQUFBOzs7OztHQUFBOzs7OztFQUFBLGVBQUEsQ0FBQSxPQUFBO0VBQUEsY0FBQSxDQUFBLE9BQUE7RUFBQSxVQUFBLENBQUEsT0FBQTtFQUFBLHVCQUFBO0NBQUE7O0dBQUE7RUFBQSxrQkFBQTtDQUFBOzs7R0FBQTtRQUFBLE9BQUE7RUFBQSxrQkFBQTtDQUFBOzs7R0FBQTtTQUFBLE9BQUE7RUFBQSxxQkFBQTtDQUFBOzs7O0dBQUE7Ozs7RUFBQSwyQkFBQSxDQUFBLE9BQUE7Q0FBQTs7R0FBQTs7OztFQUFBLG1CQUFBO0VBQUEsV0FBQTtDQUFBOztHQUFBOzs7O0VBQUEscUNBQUE7Q0FBQTs7R0FBQTtFQUFBLGdDQUFBO0VBQUEsbUJBQUE7RUFBQSwrQkFBQTtDQUFBOzs7OztHQUFBO0VBQUEsdUJBQUEsQ0FBQSxPQUFBO0VBQUEsZUFBQSxDQUFBLE9BQUE7RUFBQSxlQUFBLENBQUEsT0FBQTtFQUFBLGdCQUFBLENBQUEsT0FBQTtFQUFBLFdBQUEsQ0FBQSxPQUFBO0VBQUEsb0JBQUEsQ0FBQSxPQUFBO0NBQUE7O0dBQUE7RUFBQSxlQUFBO0VBQUEsYUFBQTtFQUFBLG9CQUFBO0NBQUEsMEJBQUE7OztFQUFBLFdBQUE7Q0FBQSxrREFBQTtFQUFBLGdCQUFBO0NBQUE7OztHQUFBOztFQUFBLHVCQUFBLENBQUEsT0FBQTtFQUFBLFdBQUEsQ0FBQSxPQUFBO0NBQUE7O0dBQUE7O0VBQUEsYUFBQTtDQUFBOzs7R0FBQTtFQUFBLDhCQUFBLENBQUEsT0FBQTtFQUFBLDBCQUFBLENBQUEsT0FBQTtDQUFBOztHQUFBOztFQUFBLHlCQUFBO0NBQUE7O0dBQUE7O0VBQUEsZUFBQTtFQUFBLGNBQUE7Q0FBQTs7RUFBQSxlQUFBO0VBQUEsY0FBQTtDQUFBOztFQUFBLGVBQUE7RUFBQSxjQUFBO0NBQUE7O0VBQUEsY0FBQTtDQUFBOzs7R0FBQTtFQUFBLDJCQUFBLENBQUEsT0FBQTtFQUFBLGNBQUEsQ0FBQSxPQUFBO0NBQUE7Z0ZBQUEsMkNBQUE7RUFBQSwwQkFBQTtFQUFBLGtCQUFBO0NBQUE7O0VBQUEsV0FBQTtDQUFBO0VBQUEsVUFBQTtDQUFBO0VBQUEsVUFBQTtFQUFBLFdBQUE7Q0FBQTtFQUFBLDhCQUFBO0NBQUE7RUFBQSxnQkFBQTtFQUFBLG9CQUFBO0NBQUE7O0FDRUEsZ0JBQWdCOztBQUdoQjtFQUNFLHVCQUF1QjtFQUN2QixrQ0FBc0M7RUFDdEMsZ0NBQXVDO0VBQ3ZDLG9DQUF3QztFQUN4QyxxQkFBcUI7RUFDckIsa0JBQWM7Q0FLZiIsImZpbGUiOiJfdmFycy5jc3MiLCJzb3VyY2VzQ29udGVudCI6W251bGwsIkByZXNldC1nbG9iYWwgcGM7XG5cbi8qIGJyZWFrUG9pbnQgKi9cbkBjdXN0b20tbWVkaWEgLS1icmVha1BvaW50ICh3aWR0aCA8PSA4MDBweCk7XG5cbjpyb290IHtcbiAgLS1iYXNlLWZvbnQtc2l6ZTogMTZweDtcbiAgLS1jb2xvci13aGl0ZTogY29sb3IoI2ZmZmZmZiBhKDEwMCUpKTtcbiAgLS1jb2xvci1kYXJrZXI6IGNvbG9yKCMyMTIxMjEgYSgxMDAlKSk7XG4gIC0tY29sb3ItbGlnaHRlcjogY29sb3IoI2U3ZThlYSBhKDEwMCUpKTtcbiAgLS13aWR0aC1sYXJnZTogODAwcHg7XG4gIC0tcmFkaXVzOiA0cHg7XG5cbiAgLS1idXR0b24tc3R5bGU6IHsgZGlzcGxheTogaW5saW5lLWJsb2NrOyBwYWRkaW5nOiAxNnB4IDI0cHg7IGJhY2tncm91bmQ6IHZhcigtLWNvbG9yLXdoaXRlKTsgYm9yZGVyLXJhZGl1czogdmFyKC0tcmFkaXVzKTsgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tY29sb3ItZGFya2VyKTsgY29sb3I6IHZhcigtLWNvbG9yLWRhcmtlcik7IHRleHQtZGVjb3JhdGlvbjogdW5zZXQ7XG4gICAgJjpob3ZlciB7IGJhY2tncm91bmQ6IHZhcigtLWNvbG9yLWRhcmtlcik7IGNvbG9yOiB2YXIoLS1jb2xvci13aGl0ZSk7IG9wYWNpdHk6IDE7fVxuICB9O1xufVxuIl19 */
