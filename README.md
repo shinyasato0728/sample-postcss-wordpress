@@ -182,9 +182,9 @@ mysqli.default_socket = /tmp/mysql.sock
 
 [こちらからWordPressの最新版をダウンロードして](https://ja.wordpress.org/download/)、Apatchの設定で変更したディレクトリにコピーしましょう。
 
-## PHPのビルトインサーバーを起動
+## PHPのビルトインウェブサーバーを起動
 
-以下のコマンドを入力して、PHPのビルトインサーバーを起動しましょう。
+以下のコマンドを入力して、PHPのビルトインウェブサーバーを起動しましょう。
 
 ```
 $ php -S localhost:8000
@@ -341,7 +341,7 @@ WordPressのテーマに、PostCSSを通したcssファイルを吐き出すデ�
 
 ## package.jsonにスクリプトを記載する
 
-PHPのビルトインサーバーと、PostCSSの読み込み・書き出しを一度に行うスクリプトを記載します。
+PHPのビルトインウェブサーバーと、PostCSSの読み込み・書き出しを一度に行うスクリプトを記載します。
 
 ```
 "scripts": {
