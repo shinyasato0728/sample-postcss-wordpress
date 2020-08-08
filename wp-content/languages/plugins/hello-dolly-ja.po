@@ -11,22 +11,22 @@ msgstr ""
 "Language: ja_JP\n"
 "Project-Id-Version: Plugins - Hello Dolly - Stable (latest release)\n"
 
-#. Description of the plugin/theme
-msgid "This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation summed up in two words sung most famously by Louis Armstrong: Hello, Dolly. When activated you will randomly see a lyric from <cite>Hello, Dolly</cite> in the upper right of your admin screen on every page."
-msgstr "これは単なるプラグインではありません。Louis Armstrong が歌った最も有名な二つの単語「Hello, Dolly」に要約された、世代全体の希望と熱意を象徴しているのです。このプラグインを有効化すると、すべての管理画面の右上に <cite>Hello, Dolly</cite> からの歌詞がランダムに表示されます。"
-
-#. Author URI of the plugin/theme
+#. Author URI of the plugin
 msgid "https://ma.tt/"
 msgstr "https://ma.tt/"
 
-#. Author of the plugin/theme
+#. Author of the plugin
 msgid "Matt Mullenweg"
 msgstr "Matt Mullenweg"
 
-#. Plugin URI of the plugin/theme
+#. Description of the plugin
+msgid "This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation summed up in two words sung most famously by Louis Armstrong: Hello, Dolly. When activated you will randomly see a lyric from <cite>Hello, Dolly</cite> in the upper right of your admin screen on every page."
+msgstr "これは単なるプラグインではありません。Louis Armstrong が歌った最も有名な二つの単語「Hello, Dolly」に要約された、世代全体の希望と熱意を象徴しているのです。このプラグインを有効化すると、すべての管理画面の右上に <cite>Hello, Dolly</cite> からの歌詞がランダムに表示されます。"
+
+#. Plugin URI of the plugin
 msgid "https://wordpress.org/plugins/hello-dolly/"
 msgstr "https://wordpress.org/plugins/hello-dolly/"
 
-#. Plugin Name of the plugin/theme
+#. Plugin Name of the plugin
 msgid "Hello Dolly"
 msgstr "Hello Dolly"

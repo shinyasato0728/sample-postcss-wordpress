@@ -25,7 +25,7 @@ get_header();
           <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-wordpress.svg" alt="WordPress-Logo">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-postcss.svg" alt="PostCSS-Logo">
         </figure>
-        <p>モダンなCSS開発環境として注目されているPostCSSを、HUGOに導入してみました。</p>
+        <p>モダンなCSS開発環境として注目されているPostCSSを、WordPressに導入してみました。</p>
         <p>詳しい導入方法や、入れているプラグインはRepositoryにまとめておきましたので、詳しくはRepositoryをご覧ください。</p>
         <div class="link--button__wrapper">
           <a href="https://github.com/cookboys/sample-postcss-wordpress" class="link--button" target="_blank">Repositoryを見る</a>
