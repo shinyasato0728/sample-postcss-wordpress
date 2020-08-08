@@ -1,7 +1,7 @@
 module.exports = (ctx) => ({
   map: ctx.options.map,
   plugins: [
-    require('autoprefixer')({ browsers: ['> 1%', 'last 2 versions', 'Opera >=10.1', 'Firefox >= 4', 'iOS >=3.2'] }),
+    require('autoprefixer'),
     require('postcss-import'),
     require('postcss-apply'),
     require('postcss-nesting'),

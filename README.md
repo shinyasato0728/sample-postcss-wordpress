@@ -1,14 +1,14 @@
 # Version
 
-* PHP version 7.1.19
+* PHP version 7.3.11
 
 * MySQL version 8.0.12
 
-* Apatch version 2.4.34
+* Apatch version 2.4.41
 
-* Node.js version 9.6.1
+* Node.js version 12.13.1
 
-* WordPress version 5.0.2
+* WordPress version 5.4.2
 
 macOS上での開発環境の構築手順を示す。
 
